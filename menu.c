@@ -14,7 +14,7 @@ int getMenuOption() {
 	printf("Enter %d to print vowel and consonant frequency.\n", MENU_STATS);
 	printf("Enter %d to print histogram.\n", MENU_HISTO);
 	printf("Enter %d to return to inputting more strings.\n", MENU_INPUT);
-	printf("Enter %d to quit.\n", MENU_EXIT);
+	printf("Enter %d to quit.\n\n", MENU_EXIT);
 	scanf("%d", &opt);
 	return opt;
 }
